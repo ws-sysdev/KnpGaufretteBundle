@@ -1,5 +1,5 @@
 {
-    "name":         "wssysdev/knp-gaufrette-bundle",
+    "name":         "ws-sysdev/knp-gaufrette-bundle",
     "type":         "symfony-bundle",
     "description":  "Allows to easily use the Gaufrette library in a Symfony project",
     "keywords":     ["file", "filesystem", "media", "abstraction"],
@@ -17,7 +17,7 @@
     ],
     "require":      {
         "symfony/framework-bundle": "~2.0|~3.0",
-        "wssysdev/gaufrette":        "master"
+        "ws-sysdev/gaufrette":        "master"
     },
     "require-dev": {
         "symfony/yaml": "~2.0|~3.0",
