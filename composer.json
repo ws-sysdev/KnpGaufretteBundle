@@ -29,11 +29,6 @@
             "Knp\\Bundle\\GaufretteBundle\\": ""
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "master"
-        }
-    },
     "config": {
         "bin-dir": "bin"
     },
