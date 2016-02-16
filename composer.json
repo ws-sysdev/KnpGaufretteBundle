@@ -15,9 +15,15 @@
             "homepage": "https://github.com/knplabs/KnpGaufretteBundle/contributors"
         }
     ],
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/ws-sysdev/Gaufrette.git"
+    }
+    ],
     "require":      {
         "symfony/framework-bundle": "~2.0|~3.0",
-        "ws-sysdev/gaufrette":        "dev-master"
+        "ws-sysdev/gaufrette":        "1.0"
     },
     "require-dev": {
         "symfony/yaml": "~2.0|~3.0",
@@ -31,11 +37,5 @@
     },
     "config": {
         "bin-dir": "bin"
-    },
-    "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/ws-sysdev/Gaufrette.git"
     }
-    ]
 }
