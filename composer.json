@@ -17,7 +17,7 @@
     ],
     "require":      {
         "symfony/framework-bundle": "~2.0|~3.0",
-        "wssysdev/gaufrette":        "maser"
+        "wssysdev/gaufrette":        "master"
     },
     "require-dev": {
         "symfony/yaml": "~2.0|~3.0",
