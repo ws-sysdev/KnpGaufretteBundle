@@ -2,3 +2,5 @@ Tests/Resources/cache
 .idea/
 vendor/
 composer.lock
+/nbproject/private/
+nbproject/

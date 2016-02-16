@@ -17,7 +17,7 @@
     ],
     "require":      {
         "symfony/framework-bundle": "~2.0|~3.0",
-        "knplabs/gaufrette":        "~0.1.7|~0.2"
+        "wssysdev/gaufrette":        "maser"
     },
     "require-dev": {
         "symfony/yaml": "~2.0|~3.0",
@@ -36,5 +36,11 @@
     },
     "config": {
         "bin-dir": "bin"
+    },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/ws-sysdev/Gaufrette.git"
     }
+    ]
 }
